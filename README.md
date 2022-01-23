@@ -1,2 +1,2 @@
 # Ioc-Demo
-Demos sobre injeção de conteúdo e inversão de dependencia. (ClearSale)
+Demos sobre injeção de conteúdo e inversão de dependencia. (Teste)
