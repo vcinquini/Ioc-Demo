@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("3.OpenWeatherMapIoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b18fa5b08744fee549dbacdd2f7d5ac613e1758f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5877249e54e3ac3b1544b02d4cbed2bf08ba6dd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("3.OpenWeatherMapIoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("3.OpenWeatherMapIoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
