@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using System;
 
 namespace OpenWeatherMapIoCv3;
@@ -15,7 +16,6 @@ public class Startup
 		var services = new ServiceCollection();
 
 		// add necessary services
-		//services.AddSingleton<IOpenAirApi, OpenAirApi>();
 		services.AddSingleton<IOpenApi, OpenAirApi>();
 		services.AddSingleton<IOpenApi, OpenMapApi>();
 		services.AddSingleton<IOpenApi, OpenAirApiMocked>();
