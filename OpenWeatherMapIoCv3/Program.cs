@@ -30,14 +30,6 @@ class Program
 	}
 	***************************************/
 
-	private static string FormatJson(string json)
-	{
-		dynamic parsedJson = JsonConvert.DeserializeObject(json);
-		return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
-	}
-
-
-	
 	//async Task Main feature allowed from C# 7.1+
 	public static async Task Main(string[] args)
 	{
@@ -55,6 +47,11 @@ class Program
 		Console.WriteLine(FormatJson(texto));
 	}
 
+	private static string FormatJson(string json)
+	{
+		dynamic parsedJson = JsonConvert.DeserializeObject(json);
+		return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
+	}
 
 	public static IServiceProvider ConfigureServices()
 	{
